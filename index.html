@@ -1,5 +1,27 @@
 <style>
-    
+    body {
+        font-size: 14px;
+        font-family: Arial, sans-serif;
+        color: #222;
+    }
+    .top {
+        display: flex;
+        padding: 6px;
+        align-items: center;
+    }
+    #box-container {
+        display: flex;
+        height: 48px;
+        flex-direction: row;
+    }
+    #box-1 {
+        width: 50%;
+        height: 50%;
+    }
+    #box-2 {
+        width: 50%;
+        height: 50%;
+    }
 </style>
 
 <!DOCTYPE html>
@@ -11,6 +33,10 @@
 </head>
 
 <body>
+    <header id="box-container" class="top">
+        <div id="box-1">1</div>
+        <div id="box-2">2</div>
+    </header>
  <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
 </body>
 
