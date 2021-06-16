@@ -27,7 +27,7 @@
         flex-shrink: 4;
         flex-direction: row; 
     }
-    #box-googlelogo {
+    #box-container-body {
         width: 100%;
         height: 100%;
         display: flex;
@@ -35,6 +35,14 @@
         justify-content:flex-start;
         flex-direction: column;
         object-position: 50% 50%; 
+    }
+    #box-google-logo {
+        flex-shrink: 1;
+        padding:10px;
+    }
+    #box-searchbar {
+        flex-shrink: 2;
+        padding: 10px;
     }
     a:link {
         text-decoration: none;
@@ -72,10 +80,10 @@
             
         </div>
     </header>
-<div id="box-googlelogo">
-    <img id="googlelogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" width="272" height="92">
-    <input type="text" id="search-bar" name="search-bar-name" minlength="1" maxlength="100" size="50">
-    <button>Search</button>
+<div id="box-container-body">
+    <div id="box-google-logo"><img id="googlelogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" width="272" height="92"></div>
+    <div id="box-searchbar"></div><input type="text" id="search-bar" name="search-bar-name" minlength="1" maxlength="100" size="50">
+    <button>Search</button></div>
 </div>
 
 </body>
